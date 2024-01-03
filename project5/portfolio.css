@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,strong{
+    font-family: 'Young Serif', serif;
+}
+P,a{
+    font-family: 'Roboto Slab', serif;
+}
+
+/*header section */
+.header-section{
+    padding: 10px 0px;
+    background: #000;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.header-logo{
+    width: 40px;
+    display: flex;
+}
+.header-logo h4{
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 4px;
+    color:rgba(36, 159, 216, 0.9);
+    olor: rgba(19, 115, 160,.9);
+}
+.header-manue{
+    display: flex;
+    justify-content: end;
+}
+.header-manue ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.header-logo ul li{}
+.header-manue ul a{
+    color: rgb(6, 91, 102);
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 35px;
+    color: rgba(19, 115, 160);
+}
+.header-manue ul li:hover > a{
+    color: rgba(9, 146, 209, 0.9);
+    border-bottom: 2px solid rgba(36, 159, 216, 0.8);
+    padding-bottom: 5px;
+    
+}
+.header-button{
+    text-align: right;
+}
+.header-button button{
+    padding: 7px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 4px;
+    color: white;
+    background:rgba(36, 159, 216, 0.8);
+    text-align: right;
+}
+.portfolio-section{
+    background: black;
+    color: white;
+    padding-bottom: 50px;
+}
+.p-caption{
+    text-align: center;
+   padding-top: 100px;
+   padding-bottom:180px;
+   position: relative;
+   z-index: 1;
+}
+.p-caption::before{
+    content: "PROJECT";
+    color: rgba(255, 255, 255,.7);
+    font-size: 150PX;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 289px;
+    opacity: 0.1;
+    z-index: -1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p-caption h1{
+    font-size: 40px; 
+}
+.p-caption span{
+    color: rgb(4, 167, 243);
+}
+.project-item{
+    display: inline-block;
+    padding: 18px 50px;
+    border-radius: 7px;
+    background: rgba(4, 137, 199, 0.3);
+}
+.project-item h2{
+    color: rgb(4, 167, 243);
+    font-size: 40px;
+}
+.project-item p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-align: center;
+}
+.blog-section{
+    padding-top:200px ;
+}
+.blog-caption{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 150px;
+}
+.blog-caption h1{
+    font-size: 40px;
+}
+.blog-caption span{
+    color: rgb(4, 167, 243);
+}
+.blog-caption::before{
+    content: "BLOG";
+    color: rgba(255, 255, 255,.7);
+    font-size: 150PX;
+    font-weight: bold;
+    position: absolute;
+    top: -60px;
+    left: 440px;
+    opacity: 0.1;
+    z-index: -1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blog-item{
+    background: rgba(4, 137, 199, 0.3);
+    border-radius: 7px;
+    overflow: hidden;
+}
+.blog-item img{
+    border-radius: 7px 7px 0px 0px;
+    height: 300px;
+}
+.blog-item img:hover{
+    transform: scale(1.1,1.05);
+    transition: .5s;
+}
+.blog-item span{
+    display: inline-block;
+    margin: 10px 10px;
+}
+.blog-item h4{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.blog-item p{
+    font-size: 17px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.blog-item button{
+    font-size: 20px;
+    background:rgb(4, 167, 243);
+    border: none;
+    font-weight: 700;
+   padding: 8px 25px;
+   border-radius: 5px;
+    color: white;
+}
+.b-button{
+    text-align: center;
+    padding: 25px 0px;
+}
+.skill-section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.skill-caption{
+    margin: 100px 0px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.skill-caption::before{
+    content: "SKILL";
+    color: rgba(255, 255, 255,.7);
+    font-size: 150PX;
+    font-weight: bold;
+    position: absolute;
+    top: -60px;
+    left: 440px;
+    opacity: 0.1;
+    z-index: -1;
+    font-family: 
+}
+.skill-caption h1{
+    font-size: 40px;
+}
+.skill-caption span{
+    color: rgb(4, 167, 243);
+}
+.skill-name{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 150px;
+}
+.skill-name h4{
+    font-size: 25px;
+   margin: 0px 20px;
+}
+.skill-name h4:hover{
+    color: rgb(4, 167, 243);
+    transition: .5s;
+    transform: scale(1.1,1.1);
+}
+.skill{
+    margin: 20px 0px;
+}
+.skill h4{
+    font-size: 30px;
+}
+.skill-persent{
+    display: flex;
+   margin: 20px 0px;
+}
+.persent-color{
+    height: 35px;
+    width: 35px;
+    background: rgb(4, 167, 243);
+    border-radius: 50%;
+    margin-right: 15px;
+    line-height: 35px;
+    font-size: 15px;
+    text-align: center;
+}
+.skill-no-color{
+    height: 35px;
+    width: 35px;
+    background:rgba(4, 167, 243,.3);
+    border-radius: 50%;
+    margin-right: 15px;
+
+}

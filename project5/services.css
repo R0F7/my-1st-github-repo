@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,strong{
+    font-family: 'Young Serif', serif;
+}
+P,a{
+    font-family: 'Roboto Slab', serif;
+}
+
+/*header section */
+.header-section{
+    padding: 10px 0px;
+    background: #000;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.header-logo{
+    width: 40px;
+    display: flex;
+}
+.header-logo h4{
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 4px;
+    color:rgba(36, 159, 216, 0.9);
+    olor: rgba(19, 115, 160,.9);
+}
+.header-manue{
+    display: flex;
+    justify-content: end;
+}
+.header-manue ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.header-logo ul li{}
+.header-manue ul a{
+    color: rgb(6, 91, 102);
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 35px;
+    color: rgba(19, 115, 160);
+}
+.header-manue ul li:hover > a{
+    color: rgba(9, 146, 209, 0.9);
+    border-bottom: 2px solid rgba(36, 159, 216, 0.8);
+    padding-bottom: 5px;
+}
+    .main-section{
+        background: #000;
+    }
+.header-button{
+    text-align: right;
+}
+.header-button button{
+    padding: 7px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 4px;
+    color: white;
+    background:rgba(36, 159, 216, 0.8);
+    text-align: right;
+}
+
+/* services section*/
+.services-section{
+    background: black;
+    color: white;
+    padding-bottom: 118px;
+}
+.services-caption{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    position: relative;
+    z-index: 1;
+}
+.services-caption::before{
+    content: "SERVICES";
+    color: rgba(255, 255, 255,.7);
+    font-size: 150PX;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 280px;
+    opacity: 0.1;
+    z-index: -1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.services-caption h1{
+    font-size: 45px;
+}
+.services-caption span{
+    color: rgb(4, 167, 243);
+}
+.services-item{
+    text-align: center;
+    border-width: 3px;
+    border-color: rgb(4, 167, 243);
+    border-style:double;
+    border-radius: 7%;
+    padding: 90px 10px;
+}
+.s-icon{
+    font-size: 40px;
+    border: 3px white dashed;
+    order: 3px rgb(4, 167, 243) dashed;
+    color: rgb(4, 167, 243);
+    display: inline-block;
+    height: 80px;
+     width: 80px;
+    line-height: 85px;
+    border-radius: 50%;
+}
+.s-text{}
+.s-text h4{
+    font-size: 35px;
+    padding: 20px 00px;
+}
+.s-text p{
+    margin-top: 25px;
+    width: 90%;
+    margin: auto;
+    line-height: 28px;
+}

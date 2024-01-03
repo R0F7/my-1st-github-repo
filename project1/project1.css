@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,strong{
+font-family: 'Roboto', sans-serif;
+}
+p,a,span{
+    font-family: 'Kanit', sans-serif;
+}
+img{
+    width: 100%;
+}
+
+/*header section */
+
+.header-section{
+    padding: 10px 0px;
+    border-bottom: 3px solid rgb(88, 207, 187);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.header-logo{}
+.header-logo h4{
+    font-size: 30px;
+    color: aqua;
+    line-height: 50px;
+}
+.header-manu{
+    margin-right: 50px;
+}
+.header-manu ul{
+    text-align: end;
+}
+.header-manu ul li{
+    display: inline-block;
+}
+.header-manu ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    line-height: 50px;
+}
+.header-manu ul li a:hover{
+    font-size: 22px;
+    transition: 1s;
+    border: 3px solid aqua;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: aqua;
+}
+.header-button button{
+    padding: 10px 30px;
+    margin-top: 5px;
+}
+.login{
+background: transparent;
+border-color: aqua;
+border-radius: 5px;
+border-width: 3px;
+color: aqua;
+font-weight: bold;
+}
+.demo{
+    background: aqua;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* slider section*/
+
+.slider-section{
+    margin-top: 150px;
+}
+.slider-text{
+    margin-top: 100px;
+}
+.slider-text h4{
+    font-size: 30px;
+}
+.slider-text h3{
+  font-size: 35px;  
+  background:aqua;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.slider-text p{}
+.slider-text button{
+padding: 10px 30px;
+font-size: 15px;
+border: 5px solid aqua;
+background: rgb(47, 47, 233); 
+color: aqua;
+border-radius: 5px;
+font-weight: 500;
+position: relative;
+z-index: 99;
+}
+.slider-text button::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 0;
+background: rgb(46, 21, 156);
+z-index: -99;
+transition: 1s;
+border-radius: 5px;
+}
+.slider-text button:hover::before{
+width: 100%;
+}
+.slider-img{
+    height: 600px;
+}
+.slider-img img{
+    height: 100%;
+}
+
+/* about section*/
+
+.about-section{}
+.about{
+    background: rgba(235, 230, 222,.6);
+    padding: 230px 80px;
+    border-radius: 5px;
+}
+.about-one{
+    width: 85%;
+    margin-left: 50px;
+    background: white;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+.one-image{
+    width: 250px;
+    text-align: right;
+    margin-top: 40px ;
+}
+.one-image img{
+    width: 100%;
+    text-align: right;
+}
+.one-text{
+    margin-top: 60px;
+}
+.one-text p{
+    font-size: 13px;
+}
+.one-text h4{
+    font-size: 20px;
+}
+
+
+/* trust section*/
+
+.trust-section{}
+.trust{
+    height: 750px;
+    background: rgba(219, 213, 202,.5);
+    position: relative;
+    border-radius: 10px;
+}
+.trust h4{
+    background: aqua;
+    font-size: 30px;
+    transform: translateY(150px);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.trust img{
+    width: 450px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.caption h4{
+   transform: translateY(220px);
+}
+.main-text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+}
+.main-text h3{
+    font-size: 30px;
+}
+.main-text p{
+    margin-bottom: 70px;
+}
+/* works section */
+
+.works-section{}
+.work{
+    background: rgb(5, 93, 109);
+    padding: 100px 40px;
+}
+.work-text{}
+.work-text h4{
+    background: aqua;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.work-text p{
+    margin-top: 50px;
+    color: aliceblue;
+    width: 75%;
+}
+.work-text button{
+    background-color: aqua;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-width: 4px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+/* footer section */
+
+.footer-section{
+    padding: 150px 0px;
+}
+.footer-icon-manu{
+ transform: translateY(150px);
+}
+.footer-icon-manu span a{
+    padding: 10px;
+    border: 3px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 15px;
+    color: black;
+}
+.footer-icon-manu span a:hover{
+    color: white;
+    transition: 1s;
+    background: aqua;
+}
+.footer-text{}
+.footer-text h4{
+font-size: 14px;
+margin-bottom: 10px;
+}
+.footer-text ul{}
+.footer-text ul li{
+    list-style: none;
+}
+.footer-text ul li a{
+    text-decoration: none;
+    color: rgb(5, 93, 109);
+    font-weight: 400;
+    font-size: 15px;
+}  
